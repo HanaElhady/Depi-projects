@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+.droid-arabic-kufi {
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Droid Arabic Kufi;
+    color: #724039;
+    stroke: white;
+    font-size: 200%;
+    background-color: gainsboro;
+    padding: 20px 20px;
+    ;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  table {
+    margin-top: 3%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    border: 1px solid #ddd;
+  }
+
+  table.center {
+    margin-left: 30%; 
+    margin-right: 10%;
+  }
+  th, td {
+    text-align: right;
+    padding: 3%;
+    font-family: Droid Arabic Kufi;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {background-color: #D0A379;}
