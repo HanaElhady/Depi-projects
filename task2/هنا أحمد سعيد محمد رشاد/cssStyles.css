@@ -1,0 +1,296 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+.nav {
+    float: left;
+    position: fixed;
+    background-color: hwb(0 20% 80%);
+    height: 100vh;
+    width: 10%;
+    font-size: 0px;
+}
+
+
+.nav a {
+    color: white;
+    text-align: center;
+    padding: 30px 0;  /* Adjust padding for better spacing */
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;  /* Change to block to use width and padding */
+    width: 100%;     /* Make links take full width of the sidebar */
+    font-size: small;
+   
+}
+
+.nav img {
+    width: 100%;
+    
+}
+
+
+.nav a:hover {
+    background-color: black; 
+}
+
+.flex-container {
+     width: 88%;
+     display: flex;
+     color: white;
+     flex-direction: column;
+     padding: 40px;
+     transform: translateX(4%); 
+   }
+
+.main {
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.main h1 {
+    font-size: 400%;
+    padding-left: 10%;
+}
+
+.main h4 {
+    padding-left: 10%;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.897);
+}
+.main span {
+    padding-right: 1% ;
+}
+
+
+.main img {
+   
+    height: "1108";
+    width: "992";
+    padding-left: 10%;
+}
+
+.header {
+    color: white;
+    padding: 40px;
+    transform: translateX(7%); 
+}
+    
+
+.myname::after {
+    content: '';
+    position: absolute;
+    left: 3.5%;
+    bottom: 165px; /* Adjust this value to control the space between text and the line */
+    height: 3px; /* Height of the underline */
+    width : 18%;
+    background-color: rgba(255, 255, 255, 0.514); /* Color of the underline */
+}
+
+
+p {
+    flex-wrap: wrap;
+    color: grey;
+}
+
+
+
+.font {
+    font-size : 250%;
+    text-align: left;
+    padding-bottom: 3%;
+}
+
+.skills h2 {
+    color: grey;
+    padding: 2% 0;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.progress {
+    height: 20px;
+    background-color:grey;
+   
+}
+
+.stat {
+    display: flex;
+    height: 100px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.stat > p {
+   text-align: center;
+   margin: auto;
+   padding: auto;
+   font-size: 20px;
+   color: black;
+ 
+}
+
+.stat span {
+    display: block;
+    color: hsl(0, 0%, 53%);
+
+}
+
+button {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    width:auto;
+    height: auto;
+}
+
+.price {
+    opacity: 0.3;
+    width: 47.5%;
+    height: auto;
+    border: 1px solid black; /* Corrected border syntax */
+    background-color: white;
+    list-style-type: none;
+}
+
+.price li {
+    color: black;
+    text-align: center;
+    width: 100%; /* Set to 100% */
+    padding: 5%;
+    display: block;
+    border-bottom: 2px solid lightgray; /* Added border-bottom for list items */
+}
+
+.price li:first-child {
+    background-color: hwb(0 20% 80%);
+    height: 5%;
+    color: white;
+    font: bold;
+    font-size: 250%;
+}
+
+
+.price li:last-child {
+    border-bottom: none; /* Remove bottom border from the last list item */
+}
+
+.price li span {
+    display: block;
+    padding-top: 3%;
+    color: black;
+}
+
+.price button:hover {
+    background-color: black;
+    color: white;
+}
+
+.price:hover {
+    opacity: 0.8;
+}
+
+.price button {
+    font-size: medium;
+}
+.price p {
+    font-size: 30px;
+    color: black;
+}
+.rep {
+    display: flex;
+    flex-wrap: wrap;
+    width:auto;
+    height:auto;
+    color: grey;
+    gap:2%;
+}
+.rep img {
+    border-radius: 45%;
+    width:10%;
+    height: auto;
+
+}
+
+.rep span {
+    padding-left: 2%;
+    color: grey;
+}
+
+.rep p {
+    padding-top: 2%;
+    width: 80%;
+}
+
+.myphotos {
+ flex-wrap: wrap;
+ height: 100%;
+}
+
+
+.first-coulmn {
+    width: 45%;
+}
+.first-coulmn img {
+    padding: 2% 2% 2% 0%;
+}
+
+.second-coulmn{
+    width: 45%;
+}
+
+.second-coulmn img {
+    padding: 2% 0% 2% 2%;
+    height: auto; width: 104%;
+}
+
+.input {
+    width:100%;
+    padding: 2%;
+
+
+}
+
+
+.contact img {
+    
+    width:5%;
+    height: auto;
+
+}
+
+
+.contact p {
+    width: 90%;
+}
+
+
+
