@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency</title>
+    <link rel="stylesheet" type="text/css" href = "css.css">
+</head>
+<body>
+   
+    <div class="container">
+    <div class ="header">
+<p>Convert US Dollars to Egyptian Pounds</p>
+    </div>
+    <div class ="currencyBox">
+        <div>
+            <p>amount</p>
+            <input class="input" id = "Dollars" type = "number" placeholder="USD">
+        </div>
+        <div>
+            <p>to</p>
+            <input class="input" id = "Egyptian-pounds" type = "number" placeholder="Egyptian Pounds">
+        </div>
+        <div>
+            <button id = "button">convert</button>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    document.getElementById('button').addEventListener('click', function() {
+       
+        var inputValue = document.getElementById('Dollars').value;
+
+        document.getElementById('Egyptian-pounds').value = inputValue * 48;
+    });
+</script>
+    
+</body>
+</html>
