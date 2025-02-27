@@ -1,0 +1,71 @@
+.navBar {
+    display: flex ;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px cyan;
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items:  center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 36px;
+    font-weight: 600;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.nav-menu a {
+    text-decoration: none;
+}
+
+.nav-menu hr {
+width: 80%;
+height: 4px;
+background: #ff4141;
+border: none;
+border-radius: 10px;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+}
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-login-cart button {
+    width: 150px;
+    height: 55px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color : white;
+    background: rgb(213, 87, 41);
+    cursor: pointer;
+    font-size: larger;
+}
+
+.nav-login-cart button:hover {
+    background: rgb(136, 61, 34);
+    color:white;
+}
